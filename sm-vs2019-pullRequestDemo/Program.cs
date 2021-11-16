@@ -21,6 +21,7 @@ namespace sm_vs2019_pullRequestDemo
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
+                    Console.WriteLine("MEENAA");
                 });
     }
 }
